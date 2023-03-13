@@ -5,15 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Capstone</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Proza+Libre&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <div class="container text-center">
-      <h1 class="display-1 mt-5">Portfolio</h1>
+    <div id="HeadWrap" class="container-fluid text-center">
+      <div class="p5 bg-light rounded-2">
+        <header class="container-fluid py-5">
+          <div class="glass_container">
+            <h1 class="display-1">Capstone Portfolio</h1>
+          </div>
+          <div class="attribution"><a href="https://www.instagram.com/artbystevej/" target="_blank">artbystevej</a></div>
+        </header>
+      </div>
     </div>
+    <nav id="nav">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#About">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ProjectOne">1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ProjectTwo">2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#ProjectThree">3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#ProjectFour">4</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#ProjectFive">5</a>
+        </li>
+      </ul>
+    </nav>
+    <dialog id="Modal">
+      <div id="ModalInner"></div>
+      <!-- populate info here -->
+      </dialog>
+    <main id="main" class="container-fluid p-0">
+      <section id="About" class="pt-5">
+        <div class="avatar"></div>
+        <h2>Thanks for stopping by!</h2>
+        <p>Use the navbar to help you explore and feel free to reach out to me on LinkedIn or Twitter using the icons below.</p>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/brandon-booth-784ab0252" target="_blank" class="social linkedin">LinkedIn</a></li>
+          <li><a href="https://github.com/Beboothy" target="_blank" class="social github">Github</a></li>
+        </ul>
+      </section>
+      <div id="ProjectContainer">
+        <!-- populate sections here -->
+      </div>
+    </main>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
